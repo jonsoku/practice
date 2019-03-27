@@ -6,15 +6,16 @@ const Container = styled.div``;
 
 const Ul = styled.ul`
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(183.3px, 1fr));
 `;
 const Li = styled.li`
     text-align: center;
     padding: 1rem 2rem;
     transition: all 0.5s;
-    border-bottom: 5px solid ${props => (props.current ? 'blue' : 'transparent')};
+    /* border-bottom: 5px solid ${props => (props.current ? 'blue' : 'transparent')}; */
     /* transform: scale(${props => (props.current ? '1.3' : '1')}); */
-    font-weight: ${props => (props.current ? '900' : 'inherit')};
+    background-color : ${props => (props.current ? 'blue ' : 'transparent')};
+    color : ${props => (props.current ? '#fff ' : 'blue')};
+
 `;
 
 const HeaderLink = styled(Link)``;

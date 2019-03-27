@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Router from './Router';
-import GlobalStyles from './GlobalStyles';
+import GlobalStyle from './GlobalStyles';
 
 export default class App extends Component {
     render() {
         return (
             <>
                 <Router />
-                <GlobalStyles />
+                <GlobalStyle />
             </>
         );
     }

@@ -68514,7 +68514,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n    text-align: center;\n    padding: 1rem 2rem;\n    transition: all 0.5s;\n    border-bottom: 5px solid ", ";\n    /* transform: scale(", "); */\n    font-weight: ", ";\n"]);
+  var data = _taggedTemplateLiteral(["\n    text-align: center;\n    padding: 1rem 2rem;\n    transition: all 0.5s;\n    /* border-bottom: 5px solid ", "; */\n    /* transform: scale(", "); */\n    background-color : ", ";\n    color : ", ";\n\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -68524,7 +68524,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(183.3px, 1fr));\n"]);
+  var data = _taggedTemplateLiteral(["\n    display: grid;\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -68555,7 +68555,9 @@ var Li = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].li(_templateO
 }, function (props) {
   return props.current ? '1.3' : '1';
 }, function (props) {
-  return props.current ? '900' : 'inherit';
+  return props.current ? 'blue ' : 'transparent';
+}, function (props) {
+  return props.current ? '#fff ' : 'blue';
 });
 var HeaderLink = Object(styled_components__WEBPACK_IMPORTED_MODULE_2__["default"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"])(_templateObject4());
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["withRouter"])(function (_ref) {
